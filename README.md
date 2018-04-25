@@ -1,3 +1,3 @@
 # Chat-Room
-A simple chat room program based on Java Socket and Swing
-This program build connection via socket. When server is initialized, server thread keeps waiting for client's connection request. When a connection is built up, server send back onLineUsers to client. Client Thread keeps receiving message from Thread
+A simple group chat room program based on Java Socket and Swing.
+This program builds up connection via socket. When server is initialized, server thread keeps waiting for Client's request for connection. When a connection is successful, Server send onLineUsers list to client through I/O stream. Client Thread keeps receiving messages from Server side.
