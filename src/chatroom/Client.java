@@ -248,7 +248,7 @@ public class Client{
     }  
   
     /**  
-     * 客户端主动关闭连接  
+     * Client stopped connection
      */  
     @SuppressWarnings("deprecation")  
     public synchronized boolean closeConnection() {  
