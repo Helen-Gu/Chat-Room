@@ -120,7 +120,7 @@ public class Client{
         centerSplit.setDividerLocation(100);  
   
         frame = new JFrame("Client");  
-        frame.setIconImage(Toolkit.getDefaultToolkit().createImage(Client.class.getResource("qq.png")));  
+        frame.setIconImage(Toolkit.getDefaultToolkit().createImage(Client.class.getClassLoader().getResource("qq.png")));
         frame.setLayout(new BorderLayout());  
         frame.add(northPanel, "North");  
         frame.add(centerSplit, "Center");  

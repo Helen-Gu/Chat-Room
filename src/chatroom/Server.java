@@ -85,7 +85,7 @@ public class Server {
   
     public Server() {  
         frame = new JFrame("Server");  
-        frame.setIconImage(Toolkit.getDefaultToolkit().createImage(Server.class.getResource("qq.png")));  
+        frame.setIconImage(Toolkit.getDefaultToolkit().createImage(Server.class.getClassLoader().getResource("qq.png")));
         contentArea = new JTextArea();  
         contentArea.setEditable(false);  
         contentArea.setForeground(Color.blue);  
