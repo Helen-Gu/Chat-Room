@@ -1,6 +1,8 @@
 package chatroom;
 
-import java.awt.BorderLayout;  
+import chatroom.util.User;
+
+import java.awt.BorderLayout;
 import java.awt.Color;  
 import java.awt.GridLayout;  
 import java.awt.Toolkit;  
@@ -292,7 +294,7 @@ public class Server {
                        
                         String inf = r.readLine();  
                         StringTokenizer st = new StringTokenizer(inf, "@");  
-                        User user = new User(st.nextToken(), st.nextToken());  
+                        User user = new User(st.nextToken(), st.nextToken());
                         //send a successful connection response
                         w.println("MAX@Server: Sorry, " + user.getName() + ' '+  
                                 user.getIp() + ", the server reached its max user limit, please try again later!!");  

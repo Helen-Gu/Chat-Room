@@ -1,6 +1,8 @@
 package chatroom;
 
-import java.awt.BorderLayout;  
+import chatroom.util.User;
+
+import java.awt.BorderLayout;
 import java.awt.Color;  
 import java.awt.GridLayout;  
 import java.awt.Toolkit;  
