@@ -1,4 +1,4 @@
 *.iml
 *.ipr
 *.iws
-bin/chatroom/*.class
+bin/**/*.class
